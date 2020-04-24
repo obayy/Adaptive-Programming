@@ -6,10 +6,9 @@ public class Contract {
     private Klant klant;
     private Auto auto;
 
-    public Contract(double prijs, Klant klant, Auto auto)
+    public Contract(double prijs, Auto auto)
     {
         setPrijs(prijs);
-        setKlant(klant);
         setAuto(auto);
     }
 
