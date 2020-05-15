@@ -50,4 +50,19 @@ public class Node {
         return sequenceEnd;
     }
 
+    public ArrayList<Node> getNodeConnections()
+    {
+        return nodeConnections;
+    }
+
+    public ArrayList<Double> getNodeChances()
+    {
+        return nodeChances;
+    }
+
+    public ArrayList<String> getNodeTransitions()
+    {
+        return nodeTransitions;
+    }
+
 }
